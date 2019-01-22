@@ -1,0 +1,17 @@
+form ul li {
+  list-style-type: none;
+}
+.error {
+  color: red;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+button {
+  margin-left: 280px;
+}
+
+textarea {
+  height: 300px;
+  width: 50%;
+}

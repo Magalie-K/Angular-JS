@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="fr" ng-app="myForm">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 3</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> <!--on lance le controleur dans le body-->
+    <div ng-view>
+
+    </div>
+
+
+    <!-- Présentation -->
+    <div class="container-fluid">
+      <div class="row justify-content">
+        <div class="col-lg-8 col-12 column">
+          <img src="restau.jpg" alt="vue du restaurant" />
+          <h1>A propos</h1>
+          <p>Casse-Noisette, c’est le premier et unique petit restaurant 100% végétalien du Havre! Il est ouvert le midi, de 12h à 14h, du mardi au samedi (dernière prise de commande à 13h20). Vous pouvez y déguster des plats et desserts entièrement véganes, avec toujours un choix sans gluten, sur place ou à emporter.a carte change toutes les semaines, et je m’efforce de proposer une cuisine à la fois simple, variée et goûteuse, basée sur des produits frais et bruts, souvent bios et locaux.
+          </p>
+        </div>
+        <div class="col-lg-4 col-12 column">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content">
+        <div class="col-lg-8 col-12 column">
+        </div>
+        <div class="col-lg-4 col-12 column">
+        </div>
+      </div>
+    </div>
+
+    <!-- Fin présentation -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> <!--ici on charge angularjs, les modules complémentaires (ci-dessous) sont disponibles sur le site d'angularjs, en cliquant sur download et ensuite Browse additional modules-->
+    <script src="https://code.angularjs.org/1.7.5/angular-route.js"></script> <!-- ici on charge le module "route" d'angularjs, car il n'est pas dans l'angularjs de base-->
+    <script src="https://code.angularjs.org/1.7.5/angular-messages.min.js"></script> <!--ici on charge le module "messages" d'angularjs (pour pouvoir utiliser ng-messages) car il n'est pas dans l'angularjs de base-->
+    <script src="js.js"></script>
+  </body>
+</html>

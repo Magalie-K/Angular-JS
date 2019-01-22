@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ex1 Bonus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form name="myform">
+      <label for="mail">Adresse e-mail : </label><input type="email" name="email" id="mail" ng-model="email" ng-required="@"/>
+      <div id="green" ng-show="myform.email.$valid"></div>
+      <div id="red" ng-hide="myform.email.$valid"></div>
+    </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

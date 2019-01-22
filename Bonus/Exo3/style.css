@@ -1,0 +1,9 @@
+.hasError {
+  color: red;
+}
+
+/* Présentation */
+.text-pres {
+  line-height: 50px;
+}
+/* Fin présentation */

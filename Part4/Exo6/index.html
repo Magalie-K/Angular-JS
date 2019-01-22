@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ex6 Part4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button ng-click="show1=false; show2=true" type="button" name="button" id="button">Afficher</button>
+    <button ng-click="show2=false; show1=true" type="button" name="button" id="button">Cacher</button>
+    <p ng-hide="show1">Since launching Chicks in Bowls, our mission has been simple. We work to inspire people from all backgrounds to put some skates on and try something new. We seek to support and encourage those starting out and push those skaters who want to reach their next level.</p>
+
+    <p ng-hide="show2">We have hope that the next generation of kids are inspired to hit the skatepark. We have a dream that you can show up at any skate park in the world and find people from all over shredding side by side. We have a goal to see the sport of quad-skating showcased with other extreme sports.</p>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

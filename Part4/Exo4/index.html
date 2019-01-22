@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="App">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ex4 Part4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body ng-controller="voitureCtrl">
+
+    <ul ng-repeat="voiture in tutute | filter : {couleur: '!verte'}">
+      <li>{{voiture.marque}}</li>
+      <li>{{voiture.couleur}}</li>
+    </ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
